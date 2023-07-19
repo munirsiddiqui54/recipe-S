@@ -124,6 +124,7 @@ img{
 
 }
 
+
 .meals-page{
     display: flex;
     flex-wrap: wrap;
@@ -140,6 +141,7 @@ header h2{
     display: none;
 }
 }
+
 @media only screen and (max-width: 1000px) {
     .food{
         width: 80%;
@@ -154,6 +156,26 @@ header h2{
         width: 90%;
     }
 }
+.info-body ul{
+    width: 60%;
+}
+@media only screen  and (max-width: 480px) {
+    .recipe-container{
+        width: 100%;
+    }
+    .food{
+        width: 80%;
+    }
+    .meals-page{
+        justify-content: center;
+    }
+    .info-body{
+        flex-direction: column;
+    }
+    .info-body ul{
+        width: 100%;
+    }
+    }
 @media only screen and (max-width: 1700px) and (min-width:1000px){
     .food{
         width:43%;
@@ -231,7 +253,6 @@ header h2{
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 .bg-hidden{
     opacity: 100;
@@ -296,7 +317,7 @@ header h2{
     margin: 20px;
 }
 .info-body ul{
-    width: 60%;
+   
     margin: 5px;
     padding: 5px;
     display: flex;
