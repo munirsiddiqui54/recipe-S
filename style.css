@@ -222,7 +222,7 @@ img {
 }
 @keyframes random-animation {
   0% {
-    width: 0%;
+   height:0%;
     color: white;
     opacity: 20%;
   }
@@ -230,14 +230,13 @@ img {
     color: white;
   }
   100% {
-    width: 40%;
+   height:20%;
     color: black;
     opacity: 100%;
   }
 }
 .food-header p {
-  width: 40%;
-  height: 40px;
+  height:20%;
   position: absolute;
   text-align: start;
   background-color: white;
