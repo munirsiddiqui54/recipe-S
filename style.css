@@ -224,6 +224,7 @@ img {
   0% {
     width: 0%;
     color: white;
+    opacity: 20%;
   }
   70% {
     color: white;
@@ -231,6 +232,7 @@ img {
   100% {
     width: 40%;
     color: black;
+    opacity: 100%;
   }
 }
 .food-header p {
@@ -244,7 +246,7 @@ img {
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
   animation: random-animation;
-  animation-duration: 1.2s;
+  animation-duration: 1s;
   animation-timing-function: ease;
   overflow: hidden;
   top: 15px;
